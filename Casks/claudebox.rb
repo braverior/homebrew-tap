@@ -1,14 +1,14 @@
 cask "claudebox" do
-  version "0.5.3"
+  version "0.5.4"
 
   on_arm do
     url "https://github.com/braverior/ClaudeBox/releases/download/v#{version}/ClaudeBox_#{version}_aarch64.dmg"
-    sha256 "30843935fe1f6ca9b58e09fa3a3f2ba41fd20b1732a3e3f62939a9d07cb9276f"
+    sha256 "4480a31fc9d25980df46dac27916f9d7863e9a45159e8bef550c8b3aafc61c27"
   end
 
   on_intel do
     url "https://github.com/braverior/ClaudeBox/releases/download/v#{version}/ClaudeBox_#{version}_x64.dmg"
-    sha256 "30ecd562ab9a001d6923f5c2e8fef229b38b225b8c4ede9d661645d776641ea2"
+    sha256 "37f9deffdbb1b6d03a7aa8028af65188c25ed4b3ba1fa2c1df5b71cd2c8cdcc1"
   end
 
   name "ClaudeBox"
